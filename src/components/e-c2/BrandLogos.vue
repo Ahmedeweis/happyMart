@@ -5,13 +5,33 @@
       <a href="#" class="text-xs text-gray-500 hover:text-red-500">All Brand</a>
     </div>
 
-    <div class="flex flex-wrap justify-center gap-6 md:gap-12 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-       <div v-for="brand in ['REVLON', 'GARNIER', 'LOREAL', 'Levis', 'D&G', 'H&M', 'sunsilk', 'UA']" :key="brand" class="w-16 h-16 md:w-20 md:h-20 rounded-full border border-gray-200 flex items-center justify-center bg-white hover:shadow-lg hover:scale-110 transition cursor-pointer">
-          <span class="text-[10px] font-bold text-gray-600">{{ brand }}</span>
-       </div>
+    <div class="flex flex-wrap justify-between gap-6 md:gap-12  transition-all duration-500">
+      <div v-for="brand in brands" :key="brand.name"
+        class="w-16 h-16 md:w-20 md:h-20 rounded-full border border-gray-200 flex items-center justify-center bg-white hover:shadow-lg hover:scale-110 transition cursor-pointer overflow-hidden p-2">
+        <img :src="brand.img" :alt="brand.name" class="w-full h-full object-contain" />
+      </div>
     </div>
   </section>
 </template>
 
 <script setup>
+import img1 from '../../assets/imgs/logos/image (6).png'
+import img2 from '../../assets/imgs/logos/image (7).png'
+import img3 from '../../assets/imgs/logos/image (8).png'
+import img4 from '../../assets/imgs/logos/image (9).png'
+import img5 from '../../assets/imgs/logos/image (10).png'
+import img6 from '../../assets/imgs/logos/image (11).png'
+import img7 from '../../assets/imgs/logos/image (12).png'
+import img8 from '../../assets/imgs/logos/image (13).png'
+
+const brands = [
+  { name: 'REVLON', img: img1 },
+  { name: 'GARNIER', img: img2 },
+  { name: 'LOREAL', img: img3 },
+  { name: 'Levis', img: img4 },
+  { name: 'D&G', img: img5 },
+  { name: 'H&M', img: img6 },
+  { name: 'sunsilk', img: img7 },
+  { name: 'UA', img: img8 },
+]
 </script>

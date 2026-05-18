@@ -22,10 +22,15 @@
 </template>
 
 <script setup>
+import img1 from '../../assets/imgs/summercollection/1.png'
+import img2 from '../../assets/imgs/summercollection/2.png'
+import img3 from '../../assets/imgs/summercollection/3.png'
+import img4 from '../../assets/imgs/summercollection/4.png'
+
 const products = [
-  { name: 'Diamond Necklace', price: '$75.00', image: 'https://placehold.co/200x200/transparent/png?text=Shorts' },
-  { name: 'Diamond Necklace', price: '$75.00', image: 'https://placehold.co/200x200/transparent/png?text=Dress' },
-  { name: 'Diamond Necklace', price: '$75.00', image: 'https://placehold.co/200x200/transparent/png?text=TShirt' },
-  { name: 'Diamond Necklace', price: '$75.00', image: 'https://placehold.co/200x200/transparent/png?text=BlackT' },
+  { name: 'Diamond Necklace', price: '$75.00', image: img1 },
+  { name: 'Diamond Necklace', price: '$75.00', image: img2 },
+  { name: 'Diamond Necklace', price: '$75.00', image: img3 },
+  { name: 'Diamond Necklace', price: '$75.00', image: img4 },
 ]
 </script>

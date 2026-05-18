@@ -40,10 +40,10 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import img1 from '../../assets/imgs/category/1.png'
-import img2 from '../../assets/imgs/category/2.png'
-import img3 from '../../assets/imgs/category/3.png'
-import img4 from '../../assets/imgs/category/4.png'
+import img1 from '../../assets/imgs/afrerweeklyoffer/1.png'
+import img2 from '../../assets/imgs/afrerweeklyoffer/2.png'
+import img3 from '../../assets/imgs/afrerweeklyoffer/3.png'
+import img4 from '../../assets/imgs/afrerweeklyoffer/4.png'
 
 const activeId = ref('fashion')
 
@@ -63,51 +63,46 @@ const activeRing = computed(() => {
 
 const categories = ref([
    {
-      id: 'fashion',
-      label: 'Self-care',
-      accent: '#ec4899',
-      paths: [
-         'M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.57a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.57a2 2 0 0 0-1.34-2.23z',
-      ],
-      img: img1,
-   },
-   {
-      id: 'gift',
-      label: 'Gift Ideas',
-      accent: '#f43f5e',
-      paths: [
-         'M12 22V7',
-         'M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z',
-         'M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z',
-      ],
-      extraElements: [
-         { tag: 'polyline', attrs: { points: '20 12 20 22 4 22 4 12' } },
-         { tag: 'rect', attrs: { x: '2', y: '7', width: '20', height: '5' } },
-      ],
-      img: img2,
-   },
-   {
-      id: 'shoe',
-      label: 'Shoe',
-      accent: '#10b981',
+      id: 'home',
+      label: 'Home Decor',
+      accent: '#d97706',
       paths: [
          'M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z',
       ],
       extraElements: [
          { tag: 'polyline', attrs: { points: '9 22 9 12 15 12 15 22' } },
       ],
+      img: img1,
+   },
+   {
+      id: 'seafood',
+      label: 'Ocean Seafood',
+      accent: '#0284c7',
+      paths: [
+         'M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z',
+      ],
+      img: img2,
+   },
+   {
+      id: 'vegetables',
+      label: 'Fresh Vegetables',
+      accent: '#16a34a',
+      paths: [
+         'M12 2v20',
+         'M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6',
+      ],
       img: img3,
    },
    {
-      id: 'garden',
-      label: 'Outdoor & garden',
-      accent: '#f97316',
+      id: 'grocery',
+      label: 'Groceries',
+      accent: '#e11d48',
       paths: [
-         'M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12',
-         'M12 2C6.48 2 2 6.48 2 12',
-         'M12 12v9',
-         'M12 12c0-4 3-7 7-7',
-         'M12 12c0-4-3-7-7-7',
+         'M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z',
+         'M16 10a4 4 0 0 1-8 0',
+      ],
+      extraElements: [
+         { tag: 'line', attrs: { x1: '3', y1: '6', x2: '21', y2: '6' } },
       ],
       img: img4,
    },
