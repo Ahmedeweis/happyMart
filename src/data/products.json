@@ -1,0 +1,175 @@
+[
+  {
+    "id": 1,
+    "name": "Western Ladies Bag",
+    "price": 120.00,
+    "image": "../../assets/imgs/TrendingProduct/1.png",
+    "category": "trending",
+    "sizes": ["Small", "Medium", "Large"],
+    "colors": ["Black", "Brown", "Tan"],
+    "description": "Elegant western-style ladies handbag crafted from genuine leather. Features multiple compartments and a durable strap for everyday convenience and style."
+  },
+  {
+    "id": 2,
+    "name": "Garnier Men Acno Fight",
+    "price": 12.99,
+    "image": "../../assets/imgs/TrendingProduct/2.png",
+    "category": "trending",
+    "sizes": ["100ml", "150ml"],
+    "description": "Garnier Men Acno Fight face wash specially formulated to fight acne and control oil for men's skin. Leaves skin visibly clearer and refreshed."
+  },
+  {
+    "id": 3,
+    "name": "Sony Wireless Headphones",
+    "price": 299.99,
+    "image": "../../assets/imgs/TrendingProduct/3.png",
+    "category": "trending",
+    "sizes": ["Standard"],
+    "colors": ["Black", "Silver"],
+    "description": "Industry-leading noise canceling overhead headphones with up to 30 hours of battery life. Enjoy premium sound quality and unmatched comfort."
+  },
+  {
+    "id": 4,
+    "name": "Black Gear Pro Kit",
+    "price": 89.99,
+    "image": "../../assets/imgs/TrendingProduct/4.png",
+    "category": "trending",
+    "sizes": ["Standard"],
+    "colors": ["Black"],
+    "description": "Professional black gear kit built for durability and performance. Perfect for everyday use with a sleek matte finish and premium quality materials."
+  },
+  {
+    "id": 5,
+    "name": "Curry Cup Noodles",
+    "price": 3.99,
+    "image": "../../assets/imgs/TrendingProduct/5.png",
+    "category": "trending",
+    "sizes": ["Single Pack", "Pack of 6", "Pack of 12"],
+    "description": "Rich and spicy curry-flavored instant noodles ready in just 3 minutes. A hot, satisfying meal anytime you need a quick and delicious bite."
+  },
+  {
+    "id": 6,
+    "name": "Premium Pasta",
+    "price": 5.49,
+    "image": "../../assets/imgs/TrendingProduct/6.png",
+    "category": "trending",
+    "sizes": ["250g", "500g", "1kg"],
+    "description": "Premium quality pasta made from durum wheat semolina. Perfect texture, holds sauce beautifully — ideal for all your favorite Italian dishes."
+  },
+  {
+    "id": 7,
+    "name": "Fresh Tomatoes",
+    "price": 2.99,
+    "image": "../../assets/imgs/TrendingProduct/7.png",
+    "category": "trending",
+    "sizes": ["500g", "1kg", "2kg"],
+    "description": "Farm-fresh, vine-ripened tomatoes bursting with flavor. Rich in vitamins and antioxidants, perfect for salads, sauces, and everyday cooking."
+  },
+  {
+    "id": 8,
+    "name": "Golden Eye Cream",
+    "price": 45.00,
+    "image": "../../assets/imgs/TrendingProduct/8.png",
+    "category": "trending",
+    "sizes": ["15ml", "30ml"],
+    "description": "Luxurious premium golden eye cream enriched with 24K gold and retinol. Reduces dark circles, puffiness and fine lines for a youthful radiant look."
+  },
+  {
+    "id": 9,
+    "name": "Dragon Fruit",
+    "price": 6.99,
+    "image": "../../assets/imgs/weekly/1.png",
+    "category": "weekly",
+    "sizes": ["1 piece", "Pack of 3"],
+    "description": "Exotic dragon fruit packed with antioxidants, vitamins C and B, iron, and fiber. A refreshing tropical treat with a uniquely sweet, mild flavor."
+  },
+  {
+    "id": 10,
+    "name": "Men's Casual Shoes",
+    "price": 65.00,
+    "image": "../../assets/imgs/weekly/2.png",
+    "category": "weekly",
+    "sizes": ["40", "41", "42", "43", "44", "45"],
+    "colors": ["Brown", "Black", "White"],
+    "description": "Stylish and comfortable men's casual shoes crafted from premium materials. Versatile design that pairs perfectly with both casual and smart outfits."
+  },
+  {
+    "id": 11,
+    "name": "Premium Cooking Oil",
+    "price": 8.50,
+    "image": "../../assets/imgs/weekly/3.png",
+    "category": "weekly",
+    "sizes": ["500ml", "1L", "2L"],
+    "description": "High-quality premium cooking oil with a light, neutral taste. Perfect for frying, baking and sautéing. Made from the finest natural ingredients."
+  },
+  {
+    "id": 12,
+    "name": "Trendy Sunglasses",
+    "price": 39.99,
+    "image": "../../assets/imgs/weekly/4.png",
+    "category": "weekly",
+    "sizes": ["Standard"],
+    "colors": ["Black", "Brown", "Gold"],
+    "description": "Fashion-forward sunglasses with UV400 protection lenses. Lightweight frame for all-day comfort. Elevate any outfit with this iconic style."
+  },
+  {
+    "id": 13,
+    "name": "Wireless Headset White",
+    "price": 79.99,
+    "image": "../../assets/imgs/weekly/5.png",
+    "category": "weekly",
+    "sizes": ["Standard"],
+    "colors": ["White", "Black"],
+    "description": "Crystal-clear wireless headset with built-in microphone. Enjoy hands-free calls and music with up to 20 hours of battery life and noise reduction."
+  },
+  {
+    "id": 14,
+    "name": "Classic Sweatshirt",
+    "price": 49.99,
+    "image": "../../assets/imgs/weekly/6.png",
+    "category": "weekly",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": ["Grey", "Navy", "Black"],
+    "description": "Cozy and stylish classic sweatshirt made from soft cotton-blend fleece. Perfect for casual wear, layering, or lounging at home in ultimate comfort."
+  },
+  {
+    "id": 15,
+    "name": "Men's Summer Shorts",
+    "price": 29.99,
+    "image": "../../assets/imgs/summercollection/1.png",
+    "category": "summer",
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Khaki", "Navy", "Black"],
+    "description": "Lightweight and breathable men's summer shorts perfect for beach days, outdoor activities or casual outings. Quick-dry fabric for all-day comfort."
+  },
+  {
+    "id": 16,
+    "name": "Women's Floral Dress",
+    "price": 55.00,
+    "image": "../../assets/imgs/summercollection/2.png",
+    "category": "summer",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Blue Floral", "Pink Floral", "White Floral"],
+    "description": "Elegant women's floral dress with a flattering A-line cut. Made from lightweight breathable fabric, ideal for summer outings, brunches and casual events."
+  },
+  {
+    "id": 17,
+    "name": "Men's White T-Shirt",
+    "price": 24.99,
+    "image": "../../assets/imgs/summercollection/3.png",
+    "category": "summer",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "colors": ["White", "Grey", "Black"],
+    "description": "Classic men's white T-shirt made from 100% premium combed cotton. A wardrobe essential — soft, durable and versatile for any casual look."
+  },
+  {
+    "id": 18,
+    "name": "Women's Summer T-Shirt",
+    "price": 22.99,
+    "image": "../../assets/imgs/summercollection/4.png",
+    "category": "summer",
+    "sizes": ["XS", "S", "M", "L", "XL"],
+    "colors": ["Pink", "White", "Mint"],
+    "description": "Soft and stylish women's summer T-shirt with a relaxed fit. Made from breathable fabric that keeps you cool and comfortable all day long."
+  }
+]

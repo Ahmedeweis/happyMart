@@ -1,6 +1,7 @@
 <template>
   <div class="bg-white font-sans text-gray-800">
     <Header />
+    <CartModal />
     <HeroSection />
     <CategoryIcons />
     <CategoryCards />
@@ -15,6 +16,7 @@
 
 <script setup>
 import Header from './Header.vue'
+import CartModal from './CartModal.vue'
 import HeroSection from './HeroSection.vue'
 import CategoryIcons from './CategoryIcons.vue'
 import CategoryCards from './CategoryCards.vue'
