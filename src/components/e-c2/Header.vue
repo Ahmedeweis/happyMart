@@ -4,12 +4,8 @@
     <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-8 w-full md:w-auto justify-between md:justify-start">
         <div class="flex items-center gap-2">
-          <div class="w-8 h-8 bg-red-100 rounded-full flex items-center justify-center text-red-500">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z"
-                clip-rule="evenodd" />
-            </svg>
+          <div class="w-8 h-8 rounded-full flex items-center justify-center text-red-500">
+            <img src="/public/logo.png" alt="">
           </div>
           <span class="text-xl font-bold text-gray-800">Happy<span class="text-red-500">Mart</span></span>
         </div>
