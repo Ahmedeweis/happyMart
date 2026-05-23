@@ -160,15 +160,7 @@ import CartModal from '../components/e-c2/CartModal.vue'
 const cartStore = useCartStore()
 
 const getImageUrl = (path) => {
-  if (path) {
-    try {
-      const adjustedPath = path.replace('../../assets', '../assets')
-      return new URL(adjustedPath, import.meta.url).href
-    } catch (e) {
-      console.error(e)
-      return path
-    }
-  }
-  return ''
+  if (!path) return ""
+  return path.startsWith('/') ? path : new URL(path, import.meta.url).href
 }
 </script>

@@ -5,13 +5,12 @@
       <div class="flex items-center gap-8 w-full md:w-auto justify-between md:justify-start">
         <div class="flex items-center gap-2">
           <div class="w-8 h-8 rounded-full flex items-center justify-center text-red-500">
-            <img src="/public/logo.png" alt="">
+            <img src="/logo.png" alt="">
           </div>
           <span class="text-xl font-bold text-gray-800">Happy<span class="text-red-500">Mart</span></span>
         </div>
         <div class="hidden md:block text-sm text-gray-600 font-medium">+960 1234 5654</div>
       </div>
-
       <div class="flex-1 w-full md:max-w-xl mx-4">
         <div class="relative">
           <input type="text" placeholder="Search..."
@@ -26,7 +25,6 @@
           </div>
         </div>
       </div>
-
       <div class="flex items-center gap-3">
         <button
           class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-red-500 hover:bg-red-100 transition">
@@ -53,7 +51,6 @@
         </button>
       </div>
     </div>
-
     <!-- Navigation -->
     <div class="border-b border-gray-100">
       <div class="container mx-auto px-4">
@@ -73,18 +70,14 @@
     </div>
   </div>
 </template>
-
 <script setup>
 import { useCartStore } from '../../stores/cart'
-
 const cartStore = useCartStore()
 </script>
-
 <style scoped>
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
-
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;

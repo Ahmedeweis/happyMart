@@ -27,8 +27,8 @@
 </template>
 
 <script setup>
-import img1 from '../../assets/imgs/afrerweeklyoffer/1.png'
-import img2 from '../../assets/imgs/afrerweeklyoffer/2.png'
-import img3 from '../../assets/imgs/afrerweeklyoffer/3.png'
-import img4 from '../../assets/imgs/afrerweeklyoffer/4.png'
+const img1 = '/assets/imgs/afrerweeklyoffer/1.png'
+const img2 = '/assets/imgs/afrerweeklyoffer/2.png'
+const img3 = '/assets/imgs/afrerweeklyoffer/3.png'
+const img4 = '/assets/imgs/afrerweeklyoffer/4.png'
 </script>

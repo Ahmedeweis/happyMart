@@ -15,14 +15,14 @@
 </template>
 
 <script setup>
-import img1 from '../../assets/imgs/logos/image (6).png'
-import img2 from '../../assets/imgs/logos/image (7).png'
-import img3 from '../../assets/imgs/logos/image (8).png'
-import img4 from '../../assets/imgs/logos/image (9).png'
-import img5 from '../../assets/imgs/logos/image (10).png'
-import img6 from '../../assets/imgs/logos/image (11).png'
-import img7 from '../../assets/imgs/logos/image (12).png'
-import img8 from '../../assets/imgs/logos/image (13).png'
+const img1 = '/assets/imgs/logos/image (6).png'
+const img2 = '/assets/imgs/logos/image (7).png'
+const img3 = '/assets/imgs/logos/image (8).png'
+const img4 = '/assets/imgs/logos/image (9).png'
+const img5 = '/assets/imgs/logos/image (10).png'
+const img6 = '/assets/imgs/logos/image (11).png'
+const img7 = '/assets/imgs/logos/image (12).png'
+const img8 = '/assets/imgs/logos/image (13).png'
 
 const brands = [
   { name: 'REVLON', img: img1 },

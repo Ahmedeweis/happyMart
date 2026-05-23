@@ -43,6 +43,7 @@ const cartStore = useCartStore()
 const productsData = allProducts.filter(p => p.category === 'trending')
 
 const getImageUrl = (path) => {
-  return new URL(path, import.meta.url).href
+  if (!path) return ""
+  return path.startsWith('/') ? path : new URL(path, import.meta.url).href
 }
 </script>

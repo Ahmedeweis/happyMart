@@ -37,11 +37,7 @@ const cartStore = useCartStore()
 const summerProducts = productsData.filter(p => p.category === 'summer')
 
 const getImageUrl = (path) => {
-  if (!path) return ''
-  try {
-    return new URL(path, import.meta.url).href
-  } catch (e) {
-    return path
-  }
+  if (!path) return ""
+  return path.startsWith('/') ? path : new URL(path, import.meta.url).href
 }
 </script>

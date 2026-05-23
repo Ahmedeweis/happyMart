@@ -135,17 +135,7 @@ const addToCart = () => {
 }
 
 const getImageUrl = (path) => {
-  if (path) {
-    try {
-      // The JSON data has paths relative to components/e-c2, e.g., "../../assets/"
-      // For views/, it needs to be "../assets/"
-      const adjustedPath = path.replace('../../assets', '../assets')
-      return new URL(adjustedPath, import.meta.url).href
-    } catch (e) {
-      console.error(e)
-      return path
-    }
-  }
-  return ''
+  if (!path) return ""
+  return path.startsWith('/') ? path : new URL(path.replace('../../assets', '../assets'), import.meta.url).href
 }
 </script>

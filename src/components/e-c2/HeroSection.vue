@@ -20,14 +20,12 @@
         <div class="lg:col-span-4 flex flex-col">
           <!-- Exclusive Collection -->
           <div class="bg-[#FFFFFF] rounded-3xl p-5 mb-5 relative overflow-hidden h-full min-h-[200px]">
-
-            <img src="../../assets/imgs/newarrivalrighttop.png" class=" object-contain" />
+            <img src="/assets/imgs/newarrivalrighttop.png" class=" object-contain" />
           </div>
 
           <!-- Summer Collections -->
           <div class="bg-amber-400 rounded-3xl relative overflow-hidden h-full min-h-[200px] text-gray-900">
-
-            <img src="../../assets/imgs/newarrivalrightbottom.png" class=" object-contain" />
+            <img src="/assets/imgs/newarrivalrightbottom.png" class=" object-contain" />
           </div>
         </div>
       </div>
@@ -37,7 +35,7 @@
 </template>
 
 <script setup>
-import heroImg from '../../assets/imgs/newarrivalleft.png'
+const heroImg = '/assets/imgs/newarrivalleft.png'
 </script>
 
 <style scoped>

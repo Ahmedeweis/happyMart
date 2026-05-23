@@ -101,7 +101,7 @@
 import { useCartStore } from '../../stores/cart'
 const cartStore = useCartStore()
 const getImageUrl = (path) => {
-  if(!path) return '/public/logo.png'
-  return new URL(path, import.meta.url).href
+  if(!path) return '/logo.png'
+  return path.startsWith('/') ? path : new URL(path, import.meta.url).href
 }
 </script>

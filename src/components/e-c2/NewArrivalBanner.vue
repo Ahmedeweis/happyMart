@@ -9,7 +9,7 @@
       <!-- Banner image -->
       <div
          class="bg-gray-50 rounded-3xl container mx-auto relative overflow-hidden flex items-center justify-center">
-         <img src="../../assets/imgs/newarrivalsec.png" alt="New Arrival Banner" class="w-full object-cover">
+         <img src="/assets/imgs/newarrivalsec.png" alt="New Arrival Banner" class="w-full object-cover">
       </div>
    </section>
 </template>

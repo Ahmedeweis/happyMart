@@ -61,7 +61,7 @@
 <script setup>
 import productsData from '../../data/products.json'
 import { useCartStore } from '../../stores/cart'
-import bigBanner from '../../assets/imgs/weekly/bigpne.png'
+const bigBanner = '/assets/imgs/weekly/bigpne.png'
 
 const cartStore = useCartStore()
 
@@ -70,11 +70,7 @@ const topProducts = weeklyProducts.slice(0, 2)
 const bottomProducts = weeklyProducts.slice(2, 6)
 
 const getImageUrl = (path) => {
-  if (!path) return ''
-  try {
-    return new URL(path, import.meta.url).href
-  } catch (e) {
-    return path
-  }
+  if (!path) return ""
+  return path.startsWith('/') ? path : new URL(path, import.meta.url).href
 }
 </script>
