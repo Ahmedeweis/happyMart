@@ -6,7 +6,7 @@
     <div class="container mx-auto px-4 py-8 flex-grow" v-if="product">
       <!-- Breadcrumb -->
       <nav class="text-sm text-gray-500 mb-6">
-        <router-link to="/" class="hover:text-blue-600 transition">Home</router-link>
+        <router-link to="/" class="hover:text-[#FB2C36] transition">Home</router-link>
         <span class="mx-2">/</span>
         <span class="text-gray-900 font-medium">{{ product.name }}</span>
       </nav>
@@ -21,7 +21,7 @@
         <div class="md:w-1/2 flex flex-col justify-center">
           <h1 class="text-3xl font-bold text-gray-900 mb-2">{{ product.name }}</h1>
           
-          <div class="text-2xl font-bold text-red-500 mb-6">${{ product.price.toFixed(2) }}</div>
+          <div class="text-2xl font-bold text-[#FB2C36] mb-6">${{ product.price.toFixed(2) }}</div>
 
           <p class="text-gray-600 mb-8 leading-relaxed">
             {{ product.description }}
@@ -36,7 +36,7 @@
                 <span v-for="(size, index) in product.sizes" :key="index"
                       @click="selectedSize = size"
                       class="px-5 py-2.5 border rounded-full text-sm font-medium cursor-pointer transition"
-                      :class="selectedSize === size ? 'border-2 border-blue-200 bg-blue-50 text-blue-700' : 'border-gray-200 text-gray-700 hover:border-gray-300'">
+                      :class="selectedSize === size ? 'border-2 border-[#FB2C36] bg-[#FFF0F1] text-[#FB2C36]' : 'border-gray-200 text-gray-700 hover:border-gray-300'">
                   {{ size }}
                 </span>
               </div>
@@ -49,7 +49,7 @@
                 <span v-for="(color, index) in product.colors" :key="index"
                       @click="selectedColor = color"
                       class="px-5 py-2.5 border rounded-full text-sm font-medium cursor-pointer transition"
-                      :class="selectedColor === color ? 'border-2 border-blue-200 bg-blue-50 text-blue-700' : 'border-gray-200 text-gray-700 hover:border-gray-300'">
+                      :class="selectedColor === color ? 'border-2 border-[#FB2C36] bg-[#FFF0F1] text-[#FB2C36]' : 'border-gray-200 text-gray-700 hover:border-gray-300'">
                   {{ color }}
                 </span>
               </div>
@@ -64,7 +64,7 @@
           </div>
 
           <div class="mt-2">
-            <button @click="addToCart" class="w-full bg-[#5235ff] text-white font-semibold px-6 py-4 rounded-xl hover:bg-[#432be0] transition shadow-lg shadow-blue-500/25 text-center flex justify-center items-center gap-2">
+            <button @click="addToCart" class="w-full bg-[#FB2C36] text-white font-semibold px-6 py-4 rounded-xl hover:bg-[#e0252e] transition shadow-lg shadow-[#FB2C36]/25 text-center flex justify-center items-center gap-2">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
               </svg>
@@ -83,7 +83,7 @@
       </div>
       <h2 class="text-2xl font-bold text-gray-800 mb-2">Product not found</h2>
       <p class="text-gray-500 mb-6">The product you are looking for does not exist or has been removed.</p>
-      <router-link to="/" class="inline-block bg-blue-600 text-white font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+      <router-link to="/" class="inline-block bg-[#FB2C36] text-white font-medium px-6 py-3 rounded-lg hover:bg-[#e0252e] transition">
         Return Home
       </router-link>
     </div>

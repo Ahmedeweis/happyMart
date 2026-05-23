@@ -5,9 +5,9 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#0ea5a4', // مثال — غيّر هنا
-          50: '#e6f7f6',
-          100: '#cfeff0'
+          DEFAULT: '#FB2C36',
+          50: '#FFF0F1',
+          100: '#FFE1E3'
         },
         accent: '#ff7ab6',
         bg: '#0f1724', // خلفية عامة داكنة

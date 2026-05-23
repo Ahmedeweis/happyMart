@@ -2,7 +2,7 @@
   <section class="container mx-auto px-4 py-8">
     <div class="flex items-center justify-between mb-6">
       <h2 class="text-lg font-bold text-gray-900">Select Categories</h2>
-      <a href="#" class="text-xs text-gray-500 hover:text-red-500">All Categories</a>
+      <a href="#" class="text-xs text-gray-500 hover:text-[#FB2C36]">All Categories</a>
     </div>
 
     <div class="flex  pt-4 overflow-x-auto pb-4 no-scrollbar justify-start md:justify-between">

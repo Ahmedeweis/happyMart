@@ -2,7 +2,7 @@
   <section class="container mx-auto px-4 py-8 mb-8">
     <div class="flex items-center justify-between mb-6">
       <h2 class="text-lg font-bold text-gray-900">Brand</h2>
-      <a href="#" class="text-xs text-gray-500 hover:text-red-500">All Brand</a>
+      <a href="#" class="text-xs text-gray-500 hover:text-[#FB2C36]">All Brand</a>
     </div>
 
     <div class="flex flex-wrap justify-between gap-6 md:gap-12  transition-all duration-500">

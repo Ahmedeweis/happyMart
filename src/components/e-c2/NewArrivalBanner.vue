@@ -3,7 +3,7 @@
       <!-- Header row -->
       <div class="container mx-auto flex items-center justify-between mb-4">
          <h2 class="text-lg font-bold text-gray-900">New Arrival</h2>
-         <a href="#" class="text-xs text-gray-500 hover:text-red-500">Show All</a>
+         <a href="#" class="text-xs text-gray-500 hover:text-[#FB2C36]">Show All</a>
       </div>
 
       <!-- Banner image -->

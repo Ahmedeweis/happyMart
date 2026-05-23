@@ -3,12 +3,12 @@
     <!-- Top Bar -->
     <div class="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-8 w-full md:w-auto justify-between md:justify-start">
-        <div class="flex items-center gap-2">
-          <div class="w-8 h-8 rounded-full flex items-center justify-center text-red-500">
+        <router-link to="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <div class="w-8 h-8 rounded-full flex items-center justify-center text-[#FB2C36]">
             <img src="/logo.png" alt="">
           </div>
-          <span class="text-xl font-bold text-gray-800">Happy<span class="text-red-500">Mart</span></span>
-        </div>
+          <span class="text-xl font-bold text-gray-800">Happy<span class="text-[#FB2C36]">Mart</span></span>
+        </router-link>
         <div class="hidden md:block text-sm text-gray-600 font-medium">+960 1234 5654</div>
       </div>
       <div class="flex-1 w-full md:max-w-xl mx-4">
@@ -27,7 +27,7 @@
       </div>
       <div class="flex items-center gap-3">
         <button
-          class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-red-500 hover:bg-red-100 transition">
+          class="w-10 h-10 rounded-full bg-[#FFF0F1] flex items-center justify-center text-[#FB2C36] hover:bg-[#FFE1E3] transition">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -35,15 +35,15 @@
         </button>
         <button
           @click="cartStore.toggleCart()"
-          class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-red-500 hover:bg-red-100 transition relative">
+          class="w-10 h-10 rounded-full bg-[#FFF0F1] flex items-center justify-center text-[#FB2C36] hover:bg-[#FFE1E3] transition relative">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
           </svg>
-          <span v-if="cartStore.totalItems > 0" class="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-red-500 text-[10px] font-bold text-white border-2 border-white">{{ cartStore.totalItems }}</span>
+          <span v-if="cartStore.totalItems > 0" class="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-[#FB2C36] text-[10px] font-bold text-white border-2 border-white">{{ cartStore.totalItems }}</span>
         </button>
         <button
-          class="w-10 h-10 rounded-full bg-red-50 flex items-center justify-center text-red-500 hover:bg-red-100 transition">
+          class="w-10 h-10 rounded-full bg-[#FFF0F1] flex items-center justify-center text-[#FB2C36] hover:bg-[#FFE1E3] transition">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
               d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -56,15 +56,15 @@
       <div class="container mx-auto px-4">
         <nav
           class="flex items-center justify-center gap-6 overflow-x-auto py-3 text-sm font-medium text-gray-600 no-scrollbar">
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Deal Today</a>
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Special Prices</a>
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Fresh</a>
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Frozen</a>
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Demos</a>
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Shop</a>
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Blog</a>
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Pages</a>
-          <a href="#" class="whitespace-nowrap hover:text-red-500">Recently Viewed</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Deal Today</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Special Prices</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Fresh</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Frozen</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Demos</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Shop</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Blog</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Pages</a>
+          <a href="#" class="whitespace-nowrap hover:text-[#FB2C36]">Recently Viewed</a>
         </nav>
       </div>
     </div>

@@ -16,7 +16,7 @@
         <h2 class="text-lg font-bold text-gray-900">Your cart | {{ cartStore.totalItems }} Item(s)</h2>
         <button
           @click="cartStore.closeCart"
-          class="text-gray-400 hover:text-indigo-600 focus:outline-none"
+          class="text-gray-400 hover:text-[#FB2C36] focus:outline-none"
         >
           <span class="sr-only">Close panel</span>
           <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -56,7 +56,7 @@
                 <span class="w-4 text-center">{{ item.quantity }}</span>
                 <button @click="cartStore.incrementQuantity(item.cartItemId)" class="w-7 h-7 flex items-center justify-center border border-gray-300 rounded-full text-gray-500 hover:bg-gray-50 hover:text-gray-800 hover:border-gray-400 transition focus:outline-none shadow-sm">+</button>
               </div>
-              <button @click="cartStore.removeFromCart(item.cartItemId)" class="text-sm text-indigo-600 font-medium hover:text-indigo-800 flex items-center gap-1 focus:outline-none">
+              <button @click="cartStore.removeFromCart(item.cartItemId)" class="text-sm text-[#FB2C36] font-medium hover:text-[#e0252e] flex items-center gap-1 focus:outline-none">
                 Remove
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
@@ -86,10 +86,10 @@
           </div>
         </div>
         <div class="flex items-center justify-between gap-4">
-          <button @click="cartStore.closeCart" class="text-indigo-600 text-sm font-semibold hover:underline flex-1 text-center focus:outline-none">
+          <button @click="cartStore.closeCart" class="text-[#FB2C36] text-sm font-semibold hover:underline flex-1 text-center focus:outline-none">
             Continue shopping
           </button>
-          <button @click="$router.push('/checkout'); cartStore.closeCart()" class="flex-1 bg-indigo-500 hover:bg-indigo-600 text-white py-3 rounded-full font-semibold transition shadow-md focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-offset-2">
+          <button @click="$router.push('/checkout'); cartStore.closeCart()" class="flex-1 bg-[#FB2C36] hover:bg-[#e0252e] text-white py-3 rounded-full font-semibold transition shadow-md focus:outline-none focus:ring-2 focus:ring-[#FB2C36] focus:ring-offset-2">
             Checkout
           </button>
         </div>
